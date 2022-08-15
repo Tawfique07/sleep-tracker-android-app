@@ -57,6 +57,11 @@ dependencies {
 
     // Room and Lifecycle dependencies
     implementation "androidx.room:room-runtime:$version_room"
+    implementation 'junit:junit:4.12'
+    implementation 'junit:junit:4.12'
+    implementation 'junit:junit:4.12'
+    implementation 'junit:junit:4.12'
+    androidTestImplementation project(path: ':app')
     kapt "androidx.room:room-compiler:$version_room"
     implementation "androidx.lifecycle:lifecycle-extensions:$version_lifecycle_extensions"
 
